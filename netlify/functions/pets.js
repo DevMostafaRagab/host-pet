@@ -1,7 +1,7 @@
 const handler = async () => {
   return {
     statusCode: 200,
-    headers: { "Content-Type": "text/html" },
+    headers: { "Content-Type": "text/plain" },
     body: "success".toUpperCase(),
   };
 };
